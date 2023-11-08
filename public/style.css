@@ -1,0 +1,108 @@
+/* welcome to css */
+
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+
+body {
+	font-family: "times new roman", sans-serif, arial;
+	font-size: 1.5em;
+
+}
+
+header {
+	margin: 0 0em;
+	border:8px groove #4466ff;
+	border-bottom: none;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+.himg {
+	opacity: 0.4;
+	height: 200px;
+	width: 100%
+
+}	
+
+
+.hh1 {
+	position: absolute;
+	padding-left: 20%;
+	padding-right: 20%;
+	opacity: 1;
+	margin-top: -80px;
+
+
+}
+
+header * {
+
+}
+
+section {
+	border-bottom:5px dashed #000000;
+}
+
+
+main {
+	border:  10px outset #0000ff;
+	padding: 10px;
+}
+
+
+
+.bg {
+	font-weight: bold;
+}
+
+.bgitem {
+	display: inline-block;
+	padding: 1em 0em;
+	margin: 1em 0.5em;
+}
+
+.bgitem img {
+	height: 170px
+
+}
+
+#ct {
+	color: cyan;
+	background-color: red;
+
+}
+
+.gridw {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 30% 30% 30%;
+	background-color: #000000;
+	color: #ffffff;
+
+}
+
+.grid1 {
+	grid-column: 1
+}
+
+.grid2 {
+	grid-column: 2
+}
+
+.grid3 {
+	grid-column: 3
+}
+
+
+button {
+	padding: 0em 1em 1em;
+}
+
+button:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+form {
+	text-align: center;
+}
