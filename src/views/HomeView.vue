@@ -216,7 +216,8 @@ export default {
 
     sendLocation: function(event) {
 
-      socket.emit("addOrder", { orderId: this.getOrderNumber(),
+    	if (this.name != "" && this.mail != "" && this.currency != "") {
+    		socket.emit("addOrder", { orderId: this.getOrderNumber(),
                                 details: { x: this.location.x,
                                            y: this.location.y,
                                            name: this.name,
@@ -226,6 +227,9 @@ export default {
                                 orderItems: this.orderedBurger
                               }
                  );
+    	}
+
+
 
     },
     clicked: function(formElements) {
